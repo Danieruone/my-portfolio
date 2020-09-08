@@ -22,4 +22,8 @@ export const Anchor = styled.a`
     border: 0;
     height: 1px;
   }
+
+  @media (max-width: 600px) {
+    width: 300px;
+  }
 `;
