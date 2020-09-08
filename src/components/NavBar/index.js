@@ -7,15 +7,16 @@ import { NavContainer, Ul } from "./styles";
 export const NavBar = () => {
   return (
     <NavContainer>
+      <h1>Daniel Mendoza Developer</h1>
       <Ul>
         <li>
-          <Link to="/portafolio">Portafolio</Link>
+          <Link to="/portfolio">Portafolio</Link>
         </li>
         <li>
-          <Link to="/articulos">Artículos</Link>
+          <Link to="/articles">Artículos</Link>
         </li>
         <li>
-          <Link to="/sobremi">Sobre mí</Link>
+          <Link to="/about-me">Sobre mí</Link>
         </li>
       </Ul>
       <Ul>
@@ -25,7 +26,7 @@ export const NavBar = () => {
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/Danieruone1" target="_blank">
+          <a href="https://twitter.com/Darudev" target="_blank">
             {<FaTwitter />}
           </a>
         </li>

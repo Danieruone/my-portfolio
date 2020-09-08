@@ -1,16 +1,15 @@
 import styled from "styled-components";
+import { fadeIn } from "../../styles/Animations";
 
 export const CardContainer = styled.div`
+  ${fadeIn()}
   width: 300px;
   border-radius: 1%;
   border: solid 1px;
   border-color: #edf2f7;
   margin: 20px;
-  &:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-      0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    cursor: pointer;
-  }
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
 `;
 
 export const CardImage = styled.div`

@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import { fadeIn } from "../../styles/Animations";
 
 export const Anchor = styled.a`
+  ${fadeIn()}
   text-decoration: none;
   width: 700px;
   & h1 {

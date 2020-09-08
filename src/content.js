@@ -22,18 +22,4 @@ export const articles = [
     url:
       "https://medium.com/@danieruone/gu%C3%ADa-b%C3%A1sica-para-entender-componentes-en-react-js-9a0b07edb1f8",
   },
-  {
-    name: "Guía básica para entender componentes en React Js",
-    description:
-      "Introducción a los tipos de componentes de React Js como también sus principaoles métodos asaddsadsa  asdsadadsasd asd sad sad sad ads asd sad asdasda asdd sasad.",
-    url:
-      "https://medium.com/@danieruone/gu%C3%ADa-b%C3%A1sica-para-entender-componentes-en-react-js-9a0b07edb1f8",
-  },
-  {
-    name: "Guía básica para entender componentes en React Js",
-    description:
-      "Introducción a los tipos de componentes de React Js como también sus principaoles métodos.",
-    url:
-      "https://medium.com/@danieruone/gu%C3%ADa-b%C3%A1sica-para-entender-componentes-en-react-js-9a0b07edb1f8",
-  },
 ];
