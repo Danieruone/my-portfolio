@@ -3,11 +3,11 @@ import React from "react";
 import { CardContainer, CardImage, CardText, Button } from "./styles";
 import defaultImage from "../../images/default.jpg";
 
-export const CardProject = ({ name, description, url }) => {
+export const CardProject = ({ image, name, description, url }) => {
   return (
     <CardContainer>
       <CardImage>
-        <img src={defaultImage}></img>
+        <img src={image}></img>
       </CardImage>
       <CardText>
         <h1>{name}</h1>
