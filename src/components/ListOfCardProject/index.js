@@ -1,12 +1,16 @@
 import React from "react";
-import { CardProject } from "../CardProject";
+// styles
 import { ListOfCardProjectContainer } from "./styles";
+// components
+import { CardProject } from "../CardProject";
+// content
+import { projects } from "../../content";
 
 export const ListOfCardProject = () => {
   return (
     <ListOfCardProjectContainer>
-      {[1, 2, 3, 4, 5, 6].map((id) => (
-        <CardProject key={id} />
+      {projects.map((project, index) => (
+        <CardProject key={index} {...project}/>
       ))}
     </ListOfCardProjectContainer>
   );
