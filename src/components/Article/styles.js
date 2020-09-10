@@ -4,7 +4,7 @@ import { fadeIn } from "../../styles/Animations";
 export const Anchor = styled.a`
   ${fadeIn()}
   text-decoration: none;
-  width: 700px;
+  width: 60%;
   & h1 {
     color: black;
     display: flex;
@@ -26,6 +26,7 @@ export const Anchor = styled.a`
   }
 
   @media (max-width: 600px) {
-    width: 300px;
+    width: 90%;
+    line-height: 30px;
   }
 `;
