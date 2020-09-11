@@ -6,19 +6,19 @@ import profilePic from "./images/profile.jpg";
 
 export const projects = [
   {
+    image: localapp,
+    name: "Localapp",
+    description:
+      "Aplicación móvil dirigida al aporte de visibilidad a pequeños negocios.",
+    url: "",
+  },
+  {
     image: fox,
     name: "Jumper Fox",
     description:
       "Videojuego para dispositivos móviles desplegado en la tienda de Google.",
     url:
       "https://play.google.com/store/apps/details?id=com.DaruStudios.JumperFox&hl=es_CO",
-  },
-  {
-    image: localapp,
-    name: "Localapp",
-    description:
-      "Aplicación móvil dirigida al aporte de visibilidad a pequeños negocios.",
-    url: "",
   },
 ];
 
@@ -37,7 +37,7 @@ export const aboutMe = {
   position:
     "Ingeniero de software 💻 Front-end developer ⌨️ Aprendizaje continuo 🔥",
   description1:
-    "Hola! mi nombre es Daniel Mendoza, soy de Bogotá Colombia; me enfoco principalmente en el Front-end pero tengo bases en Back-end y algo de Devops. Me gusta compartir conocimiento y sobre todo estar actualizado en tecnologías y buenas prácticas.",
+    "Hola! mi nombre es Daniel Mendoza, soy de Bogotá Colombia. Me enfoco principalmente en el Front-end pero tengo bases en Back-end y algo de Devops. Me gusta compartir conocimiento y sobre todo estar actualizado en tecnologías y buenas prácticas.",
   description2:
-    "Actualmente me dedico a desarrollar proyectos propios con el fin de mejorar mis habilidades en desarrollo, mi meta es desarrollar aplicaciónes escalables, eficientes y optimizadas para que el usuario tenga una experiencia óptima.",
+    "Actualmente me dedico a desarrollar proyectos propios con el fin de mejorar mis habilidades en desarrollo. Mi meta es desarrollar aplicaciónes escalables, eficientes y optimizadas para que el usuario tenga una experiencia óptima.",
 };

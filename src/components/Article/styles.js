@@ -7,8 +7,7 @@ export const Anchor = styled.a`
   width: 60%;
   & h1 {
     color: black;
-    display: flex;
-    align-items: center;
+    line-height: 30px;
   }
 
   & p {
@@ -27,6 +26,5 @@ export const Anchor = styled.a`
 
   @media (max-width: 600px) {
     width: 90%;
-    line-height: 30px;
   }
 `;

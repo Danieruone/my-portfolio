@@ -5,7 +5,6 @@ import {
   ImageContainer,
   PositionText,
   DescriptionContainer,
-  DescriptionText,
 } from "./styles";
 
 export const AboutMe = () => {
@@ -19,8 +18,8 @@ export const AboutMe = () => {
         <PositionText>{position}</PositionText>
       </PresentationContainer>
       <DescriptionContainer>
-        <DescriptionText>{description1}</DescriptionText>
-        <DescriptionText>{description2}</DescriptionText>
+        <p>{description1}</p>
+        <p>{description2}</p>
       </DescriptionContainer>
     </>
   );
