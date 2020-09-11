@@ -15,6 +15,10 @@ export const PresentationContainer = styled.div`
 export const ImageContainer = styled.div`
   width: 100px;
   height: 100px;
+  border: solid 2px;
+  border-color: black;
+  border-radius: 50%;
+  padding: 5px;
   & img {
     width: 100%;
     height: 100%;
@@ -47,12 +51,11 @@ export const DescriptionContainer = styled.div`
   @media (max-width: 600px) {
     padding-top: 5%;
   }
-`;
-
-export const DescriptionText = styled.p`
-  margin-top: 0;
-  width: 60%;
-  @media (max-width: 600px) {
-    width: 90%;
+  & p {
+    margin-top: 0;
+    width: 60%;
+    @media (max-width: 600px) {
+      width: 90%;
+    }
   }
 `;
