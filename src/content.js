@@ -10,7 +10,7 @@ export const projects = [
     name: "Localapp",
     description:
       "Aplicación móvil dirigida al aporte de visibilidad a pequeños negocios.",
-    url: "",
+    url: "https://localapp-q7q4e76fn.vercel.app/",
   },
   {
     image: fox,
