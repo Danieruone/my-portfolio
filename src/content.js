@@ -1,6 +1,7 @@
 // project images
 import fox from "./images/fox.jpg";
 import localapp from "./images/localapp.jpg";
+import petgram from "./images/petgram.jpg";
 // about me images
 import profilePic from "./images/profile.jpg";
 
@@ -11,6 +12,13 @@ export const projects = [
     description:
       "Aplicación móvil dirigida al aporte de visibilidad a pequeños negocios.",
     url: "https://localapp-q7q4e76fn.vercel.app/",
+  },
+  {
+    image: petgram,
+    name: "Petgram",
+    description:
+      "Página web diseño mobile first estilo Instagram con fotos de animales.",
+    url: "https://petgram-lovat-eight.vercel.app/",
   },
   {
     image: fox,
