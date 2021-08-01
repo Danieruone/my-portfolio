@@ -1,7 +1,6 @@
 // project images
 import fox from "./images/fox.jpg";
 import netflixss from "./images/netflix-ss.jpg";
-import applacartass from "./images/applacarta-ss.jpg";
 import topicratess from "./images/topicrate-ss.jpg";
 // about me images
 import profilePic from "./images/profile.jpg";
