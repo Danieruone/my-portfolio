@@ -42,7 +42,7 @@ export const Ul = styled.ul`
     &:hover {
       color: #323ebe;
       border-radius: 50px;
-      background-color: #d6d9db;
+      background-color: white;
     }
   }
 `;
@@ -51,6 +51,6 @@ export const Li = styled(LinkRouter)`
   &.active {
     color: #323ebe;
     border-radius: 50px;
-    background-color: #d6d9db;
+    background-color: white;
   }
 `;
