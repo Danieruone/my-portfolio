@@ -22,7 +22,7 @@ export const CardImage = styled.div`
 export const CardText = styled.div`
   padding: 5%;
   & h1 {
-    color: black;
+    color: #323ebe;
     margin: 0;
     font-size: 1.3rem;
     font-weight: 400;
@@ -44,6 +44,7 @@ export const Button = styled.button`
   border: none;
   border-radius: 50px;
   padding: 10px;
+  color: #323ebe;
   &:hover {
     background-color: #4a5568;
     color: white;
