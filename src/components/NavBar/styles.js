@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink as LinkRouter } from "react-router-dom";
 
 export const NavContainer = styled.div`
   display: flex;
@@ -20,8 +21,8 @@ export const Ul = styled.ul`
   & li {
     list-style: none;
     padding: 10px;
+    text-decoration: none;
   }
-
   & li a {
     text-decoration: none;
     color: black;
@@ -30,5 +31,12 @@ export const Ul = styled.ul`
       border-radius: 50px;
       background-color: #d6d9db;
     }
+  }
+`;
+
+export const Li = styled(LinkRouter)`
+  &.active {
+    border-radius: 50px;
+    background-color: #d6d9db;
   }
 `;
