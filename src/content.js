@@ -20,14 +20,16 @@ export const projects = [
     description: "Vista del home de Netflix con componente de render de video",
     url: "https://netflix-ui-alpha.vercel.app/",
     code_url: "https://github.com/Danieruone/netflix-ui",
+    topics: ["Reactjs", "Styled Components"],
   },
   {
     image: topicratess,
     name: "Topicrate",
     description:
-      "Aplicación web con funcionalidad en tiempo real para calificar temas con distintas personas",
+      "Aplicación web con funcionalidad en tiempo real para calificar temas",
     url: "https://topicrate.vercel.app/",
     code_url: "https://github.com/Danieruone/topicrate",
+    topics: ["Reactjs", "Styled Components", "SocketIO"],
   },
   {
     image: petgramss,
@@ -36,6 +38,7 @@ export const projects = [
       "Página web diseño mobile first estilo Instagram con fotos de animales",
     url: "https://petgram-lovat-eight.vercel.app/",
     code_url: "https://github.com/Danieruone/petgram",
+    topics: ["Reactjs", "Styled Components", "GraphQL"],
   },
   {
     image: fox,
@@ -44,6 +47,7 @@ export const projects = [
       "Videojuego para dispositivos móviles desplegado en la tienda de Google",
     url: "https://play.google.com/store/apps/details?id=com.DaruStudios.JumperFox&hl=es_CO",
     code_url: "https://github.com/Danieruone/jumper-fox",
+    topics: ["Unity3D"],
   },
 ];
 

@@ -7,9 +7,17 @@ import {
   CardText,
   Button,
   ButtonContainer,
+  Topics,
 } from "./styles";
 
-export const CardProject = ({ image, name, description, url, code_url }) => {
+export const CardProject = ({
+  image,
+  name,
+  description,
+  url,
+  code_url,
+  topics,
+}) => {
   return (
     <CardContainer>
       <CardImage>
@@ -18,6 +26,11 @@ export const CardProject = ({ image, name, description, url, code_url }) => {
       <CardText>
         <h1>{name}</h1>
         <p>{description}</p>
+        <Topics>
+          {topics.map((topic, idx) => {
+            return <span key={idx}>{topic}</span>;
+          })}
+        </Topics>
         <ButtonContainer>
           <a href={url} target="_blank" rel="noreferrer">
             <Button>Ir al proyecto</Button>
