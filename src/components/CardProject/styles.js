@@ -33,6 +33,12 @@ export const CardText = styled.div`
   }
 `;
 
+export const ButtonContainer = styled.div`
+  & > * {
+    margin-right: 10px;
+  }
+`;
+
 export const Button = styled.button`
   background-color: #edf2f7;
   border: none;
