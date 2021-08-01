@@ -17,8 +17,9 @@ export const NavContainer = styled.div`
     margin-bottom: 0px;
     & h1 {
       text-align: center;
-      font-size: 25px;
-      font-weight: 400;
+      font-size: 23px;
+      font-weight: 200;
+      margin: 30px 0 30px 0;
     }
   }
 `;
