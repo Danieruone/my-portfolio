@@ -6,6 +6,7 @@ export const NavContainer = styled.div`
   background-color: #edf2f7;
   align-items: center;
   padding-top: 30px;
+  margin-bottom: 20px;
   & h1 {
     text-align: center;
   }

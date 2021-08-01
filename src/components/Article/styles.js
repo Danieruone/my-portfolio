@@ -16,9 +16,9 @@ export const Anchor = styled.a`
     color: black;
     font-weight: 400;
     line-height: 30px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 0;
-    color: #8045d3;
+    color: #323ebe;
   }
 
   & p {
