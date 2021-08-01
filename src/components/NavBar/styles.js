@@ -10,6 +10,15 @@ export const NavContainer = styled.div`
   margin-bottom: 20px;
   & h1 {
     text-align: center;
+    font-weight: 400;
+  }
+  @media (max-width: 600px) {
+    margin-bottom: 0px;
+    & h1 {
+      text-align: center;
+      font-size: 25px;
+      font-weight: 400;
+    }
   }
 `;
 
