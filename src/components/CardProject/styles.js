@@ -29,7 +29,19 @@ export const CardText = styled.div`
   }
   & p {
     color: #605a68;
-    margin: 20px 0px;
+    margin: 10px 0 0 0;
+  }
+`;
+
+export const Topics = styled.div`
+  display: flex;
+  & span {
+    font-size: 12px;
+    margin: 10px 10px 10px 0;
+    background-color: #edf2f7;
+    color: gray;
+    padding: 5px;
+    border-radius: 5px;
   }
 `;
 
@@ -46,7 +58,7 @@ export const Button = styled.button`
   padding: 10px;
   color: #323ebe;
   &:hover {
-    background-color: #4a5568;
+    background-color: #323ebe;
     color: white;
     cursor: pointer;
   }
