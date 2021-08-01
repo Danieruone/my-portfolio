@@ -62,6 +62,10 @@ export const Container = styled.div`
   @media (max-width: 600px) {
     width: 90%;
     flex-direction: column;
+    & img {
+      width: 200px;
+      margin-right: 0px;
+    }
   }
 `;
 
@@ -70,4 +74,7 @@ export const DescriptionContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  & p {
+    margin: 10px;
+  }
 `;
