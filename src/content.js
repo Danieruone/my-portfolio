@@ -2,6 +2,7 @@
 import fox from "./images/fox.jpg";
 import netflixss from "./images/netflix-ss.jpg";
 import topicratess from "./images/topicrate-ss.jpg";
+import petgramss from "./images/petgram.jpg";
 // about me images
 import profilePic from "./images/profile.jpg";
 
@@ -25,6 +26,13 @@ export const projects = [
     description:
       "Aplicación web con funcionalidad en tiempo real para calificar temas con distintas personas",
     url: "https://topicrate.vercel.app/",
+  },
+  {
+    image: petgramss,
+    name: "Petgram",
+    description:
+      "Página web diseño mobile first estilo Instagram con fotos de animales",
+    url: "https://petgram-lovat-eight.vercel.app/",
   },
   {
     image: fox,
