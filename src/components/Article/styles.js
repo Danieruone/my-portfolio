@@ -7,11 +7,14 @@ export const Anchor = styled.a`
   width: 60%;
   padding: 10px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   border-radius: 10px;
   box-shadow: 0px 0px 3px 0px #c3acac;
   margin-top: 20px;
+  & img {
+    margin-right: 30px;
+    width: 80px;
+  }
   & h1 {
     color: black;
     font-weight: 400;
@@ -23,6 +26,7 @@ export const Anchor = styled.a`
 
   & p {
     color: #605a68;
+    margin: 0;
   }
 
   & div {
@@ -37,5 +41,9 @@ export const Anchor = styled.a`
 
   @media (max-width: 600px) {
     width: 90%;
+    & img {
+      margin-right: 10px;
+      width: 80px;
+    }
   }
 `;

@@ -1,15 +1,15 @@
 import React from "react";
 // styles
 import { Anchor } from "./styles";
-import { FaMedium } from "react-icons/fa";
+import articlesvg from "../../images/icons/article.svg";
 
 export const Article = ({ name, description, url }) => {
   return (
     <Anchor href={url} target="_blank">
-      <h1>{name}</h1>
-      <p>{description}</p>
+      <img src={articlesvg} alt="Icono artículo" />
       <div>
-        <FaMedium />
+        <h1>{name}</h1>
+        <p>{description}</p>
       </div>
     </Anchor>
   );
