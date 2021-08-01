@@ -5,7 +5,9 @@ import {
   ImageContainer,
   PositionText,
   DescriptionContainer,
+  Container,
 } from "./styles";
+import gif from "../../images/developmentgif.gif";
 
 export const AboutMe = () => {
   const { image, position, description1, description2 } = aboutMe;
@@ -13,14 +15,17 @@ export const AboutMe = () => {
     <>
       <PresentationContainer>
         <ImageContainer>
-          <img src={image}></img>
+          <img src={image} alt="Imágen de perfil"></img>
         </ImageContainer>
         <PositionText>{position}</PositionText>
       </PresentationContainer>
-      <DescriptionContainer>
-        <p>{description1}</p>
-        <p>{description2}</p>
-      </DescriptionContainer>
+      <Container>
+        <img src={gif} />
+        <DescriptionContainer>
+          <p>{description1}</p>
+          <p>{description2}</p>
+        </DescriptionContainer>
+      </Container>
     </>
   );
 };
