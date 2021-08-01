@@ -24,6 +24,8 @@ export const CardText = styled.div`
   & h1 {
     color: black;
     margin: 0;
+    font-size: 1.3rem;
+    font-weight: 400;
   }
   & p {
     color: #605a68;

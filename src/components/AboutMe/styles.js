@@ -6,7 +6,7 @@ export const PresentationContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 3%;
+  padding-top: 20px;
   @media (max-width: 600px) {
     flex-direction: column;
   }
@@ -28,7 +28,7 @@ export const ImageContainer = styled.div`
 `;
 
 export const PositionText = styled.p`
-  width: 30%;
+  width: auto;
   text-align: center;
   color: gray;
   margin: 0;

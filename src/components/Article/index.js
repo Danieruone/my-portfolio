@@ -11,7 +11,6 @@ export const Article = ({ name, description, url }) => {
       <div>
         <FaMedium />
       </div>
-      <hr />
     </Anchor>
   );
 };
