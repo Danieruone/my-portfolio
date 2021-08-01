@@ -61,6 +61,7 @@ export const Container = styled.div`
   }
   @media (max-width: 600px) {
     width: 90%;
+    flex-direction: column;
   }
 `;
 

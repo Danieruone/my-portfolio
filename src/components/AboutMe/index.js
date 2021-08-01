@@ -20,7 +20,7 @@ export const AboutMe = () => {
         <PositionText>{position}</PositionText>
       </PresentationContainer>
       <Container>
-        <img src={gif} />
+        <img src={gif} alt="gif" />
         <DescriptionContainer>
           <p>{description1}</p>
           <p>{description2}</p>
