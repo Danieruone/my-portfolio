@@ -5,9 +5,20 @@ export const Anchor = styled.a`
   ${fadeIn()}
   text-decoration: none;
   width: 60%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 0px #c3acac;
+  margin-top: 20px;
   & h1 {
     color: black;
+    font-weight: 400;
     line-height: 30px;
+    font-size: 1.5rem;
+    margin: 0;
+    color: #8045d3;
   }
 
   & p {
