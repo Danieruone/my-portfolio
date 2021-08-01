@@ -1,22 +1,37 @@
 // project images
 import fox from "./images/fox.jpg";
-import localapp from "./images/localapp.jpg";
+import netflixss from "./images/netflix-ss.jpg";
+import applacartass from "./images/applacarta-ss.jpg";
+import topicratess from "./images/topicrate-ss.jpg";
 // about me images
 import profilePic from "./images/profile.jpg";
 
 export const projects = [
+  // {
+  //   image: applacartass,
+  //   name: "Applacarta",
+  //   description:
+  //     "Aplicación web con funcionalidad en tiempo real para hacer pedidos desde la mesa al restaurante",
+  //   url: "https://localapp-q7q4e76fn.vercel.app/",
+  // },
   {
-    image: localapp,
-    name: "Localapp",
+    image: netflixss,
+    name: "Netflix UI",
+    description: "Vista del home de Netflix con componente de render de video",
+    url: "https://netflix-ui-alpha.vercel.app/",
+  },
+  {
+    image: topicratess,
+    name: "Topicrate",
     description:
-      "Aplicación móvil dirigida al aporte de visibilidad a pequeños negocios.",
-    url: "https://localapp-q7q4e76fn.vercel.app/",
+      "Aplicación web con funcionalidad en tiempo real para calificar temas con distintas personas",
+    url: "https://topicrate.vercel.app/",
   },
   {
     image: fox,
     name: "Jumper Fox",
     description:
-      "Videojuego para dispositivos móviles desplegado en la tienda de Google.",
+      "Videojuego para dispositivos móviles desplegado en la tienda de Google",
     url: "https://play.google.com/store/apps/details?id=com.DaruStudios.JumperFox&hl=es_CO",
   },
 ];
