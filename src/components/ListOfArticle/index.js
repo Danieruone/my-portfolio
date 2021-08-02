@@ -5,6 +5,7 @@ import { Article } from "../Article";
 import { articles } from "../../content";
 // styles
 import { ListOfArticleContainer } from "./styles";
+import workinggif from "../../images/working.gif";
 
 export const ListOfArticle = () => {
   return (
@@ -12,6 +13,11 @@ export const ListOfArticle = () => {
       {articles.map((article, index) => (
         <Article key={index} {...article} />
       ))}
+      <img
+        src={workinggif}
+        style={{ width: 300, marginTop: 1 }}
+        alt="Persona trabajando gif"
+      />
     </ListOfArticleContainer>
   );
 };
