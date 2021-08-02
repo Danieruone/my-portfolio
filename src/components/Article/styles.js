@@ -11,6 +11,7 @@ export const Anchor = styled.a`
   border-radius: 10px;
   box-shadow: 0px 0px 3px 0px #c3acac;
   margin-top: 20px;
+  transition: all 0.1s ease;
 
   & img {
     margin-right: 30px;
@@ -39,6 +40,10 @@ export const Anchor = styled.a`
     background-color: red;
     border: 0;
     height: 1px;
+  }
+
+  &:hover {
+    border-right: 5px solid #323ebe;
   }
 
   @media (max-width: 600px) {
