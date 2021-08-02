@@ -78,3 +78,42 @@ export const DescriptionContainer = styled.div`
     margin: 10px;
   }
 `;
+
+export const TechContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & h1 {
+    color: #323ebe;
+    margin: 0 0 30px 0;
+    font-weight: 400;
+  }
+  & div {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+  }
+  & div img {
+    width: 50px;
+  }
+  & div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & div div span {
+    color: gray;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  @media (max-width: 600px) {
+    & div {
+      width: 90%;
+    }
+    & h1 {
+      margin: 20px 0 30px 0;
+    }
+  }
+`;
