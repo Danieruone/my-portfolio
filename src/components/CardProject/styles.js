@@ -55,13 +55,13 @@ export const ButtonContainer = styled.div`
 `;
 
 export const Button = styled.button`
-  background-color: #edf2f7;
+  background-color: #323ebe;
   border: none;
   border-radius: 50px;
   padding: 10px;
-  color: #323ebe;
+  color: white;
   &:hover {
-    background-color: #323ebe;
+    background-color: #6770c6;
     color: white;
     cursor: pointer;
   }
