@@ -2,6 +2,7 @@
 import fox from "./images/fox.jpg";
 import netflixss from "./images/netflix-ss.jpg";
 import topicratess from "./images/topicrate-ss.jpg";
+import musicfinderss from "./images/musicfinder-ss.jpg";
 import petgramss from "./images/petgram.jpg";
 // about me images
 import profilePic from "./images/profile.jpg";
@@ -20,6 +21,14 @@ export const projects = [
     description: "Vista del home de Netflix con componente de render de video",
     url: "https://netflix-ui-alpha.vercel.app/",
     code_url: "https://github.com/Danieruone/netflix-ui",
+    topics: ["Reactjs", "Styled Components"],
+  },
+  {
+    image: musicfinderss,
+    name: "Music Finder",
+    description: "Buscador de música implementando el API de Spotify",
+    url: "https://music-finder.vercel.app/",
+    code_url: "https://github.com/Danieruone/music-finder",
     topics: ["Reactjs", "Styled Components"],
   },
   {
