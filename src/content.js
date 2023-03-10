@@ -71,9 +71,7 @@ export const articles = [
 
 export const aboutMe = {
   image: profilePic,
-  position: "Ingeniero de software 💻 Front-end developer ⌨️",
+  position: "💻 Ingeniero de software 💻",
   description1:
-    "Hola! mi nombre es Daniel Mendoza, soy de Bogotá Colombia. Me enfoco principalmente en el Front-end pero también tengo bases en Back-end. Me gusta compartir conocimiento y sobre todo estar actualizado en tecnologías y buenas prácticas.",
-  description2:
-    "Actualmente me dedico a desarrollar proyectos propios con el fin de mejorar mis habilidades en desarrollo. Mi meta es desarrollar aplicaciones escalables, eficientes y optimizadas para que el usuario tenga una experiencia óptima.",
+    "Soy un ingeniero de software con tres años de experiencia en la creación de aplicaciones. Me apasiona aprender y utilizar las últimas tecnologías para mejorar la calidad de mis proyectos. Soy un desarrollador curioso, creativo y proactivo, siempre buscando nuevas soluciones para mejorar el rendimiento y la funcionalidad de las aplicaciones.",
 };

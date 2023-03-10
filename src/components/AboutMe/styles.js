@@ -113,7 +113,7 @@ export const TechContainer = styled.div`
       width: 90%;
     }
     & h1 {
-      margin: 20px 0 30px 0;
+      margin: 20px 0 50px 0;
     }
   }
 `;
