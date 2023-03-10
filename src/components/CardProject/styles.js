@@ -3,7 +3,7 @@ import { fadeIn } from "../../styles/Animations";
 
 export const CardContainer = styled.div`
   ${fadeIn()}
-  width: 300px;
+  width: 320px;
   border-radius: 1%;
   border: solid 1px;
   border-color: #edf2f7;
@@ -17,7 +17,7 @@ export const CardContainer = styled.div`
 
 export const CardImage = styled.div`
   & img {
-    width: 300px;
+    width: 100%;
     height: 200px;
   }
 `;

@@ -20,9 +20,9 @@ export const AboutMe = () => {
   return (
     <>
       <PresentationContainer>
-        <ImageContainer>
+        {/* <ImageContainer>
           <img src={image} alt="Imágen de perfil"></img>
-        </ImageContainer>
+        </ImageContainer> */}
         <PositionText>{position}</PositionText>
       </PresentationContainer>
       <Container>

@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { fadeIn } from "../../styles/Animations";
+import styled from 'styled-components';
+import { fadeIn } from '../../styles/Animations';
 
 export const PresentationContainer = styled.div`
   ${fadeIn()}
@@ -40,7 +40,7 @@ export const PositionText = styled.p`
   padding: 10px;
   border-radius: 30px;
   background-color: #edf2f7;
-  margin-top: 0;
+  margin-top: 20px;
   margin-left: 20px;
   @media (max-width: 600px) {
     width: 80%;
@@ -111,9 +111,10 @@ export const TechContainer = styled.div`
   @media (max-width: 600px) {
     & div {
       width: 90%;
+      margin-bottom: 20px;
     }
     & h1 {
-      margin: 20px 0 50px 0;
+      margin: 20px 0 30px 0;
     }
   }
 `;

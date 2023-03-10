@@ -73,5 +73,5 @@ export const aboutMe = {
   image: profilePic,
   position: "💻 Ingeniero de software 💻",
   description1:
-    "Soy un ingeniero de software con tres años de experiencia en la creación de aplicaciones. Me apasiona aprender y utilizar las últimas tecnologías para mejorar la calidad de mis proyectos. Soy un desarrollador curioso, creativo y proactivo, siempre buscando nuevas soluciones para mejorar el rendimiento y la funcionalidad de las aplicaciones.",
+    "Soy ingeniero de software con tres años de experiencia en la creación de aplicaciones. Me apasiona aprender y utilizar las últimas tecnologías para mejorar la calidad de mis proyectos. Soy un desarrollador curioso, creativo y proactivo, siempre buscando nuevas soluciones para mejorar el rendimiento y la funcionalidad de las aplicaciones.",
 };
